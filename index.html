@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupo ROB · Pautas fim de novembro</title>
+<meta name="description" content="Resumo das campanhas da última semana de novembro de 2026 e sugestões de pauta: Gatola na Cartola, Grupo ROB no iFood e Black Friday de Øliver's Pizza, Ogro Steaks e Temakeria Universitária.">
+<meta name="robots" content="noindex">
+<style>
+:root{
+ --ground:#F3EEE2;--raised:#FBF8F1;--raised-2:#F1EADB;--ink:#1D1D1B;--ink-soft:#4E4A40;--ink-faint:#7D776A;
+ --line:#DDD4C0;--line-soft:#E8E1D0;
+ --accent:#195643;--accent-bg:#1956431a;--accent-soft:#19564355;
+ --red:#D82116;--red-bg:#D821161a;--warn:#A8621A;--warn-bg:#A8621A1a;
+ --shadow:0 1px 2px #1d1d1b10,0 8px 24px -12px #1d1d1b24;
+ --serif:Georgia,'Times New Roman',serif;
+ --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --ground:#10130F;--raised:#181C17;--raised-2:#1F241E;--ink:#EFEADD;--ink-soft:#C3BCA9;--ink-faint:#8C8676;
+ --line:#2E342C;--line-soft:#232822;
+ --accent:#5FB596;--accent-bg:#5FB5961c;--accent-soft:#5FB59655;
+ --red:#F0675D;--red-bg:#F0675D1c;--warn:#E0A560;--warn-bg:#E0A5601c;
+ --shadow:0 1px 2px #0000004d,0 10px 30px -14px #00000080;}}
+:root[data-theme="dark"]{
+ --ground:#10130F;--raised:#181C17;--raised-2:#1F241E;--ink:#EFEADD;--ink-soft:#C3BCA9;--ink-faint:#8C8676;
+ --line:#2E342C;--line-soft:#232822;
+ --accent:#5FB596;--accent-bg:#5FB5961c;--accent-soft:#5FB59655;
+ --red:#F0675D;--red-bg:#F0675D1c;--warn:#E0A560;--warn-bg:#E0A5601c;
+ --shadow:0 1px 2px #0000004d,0 10px 30px -14px #00000080;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+@media (min-width:600px){.wrap{padding:0 22px}}
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--ground) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line-soft)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:52px;gap:12px}
+.brandmark{font-family:var(--serif);font-weight:700;font-size:15px;display:flex;align-items:center;gap:8px}
+.brandmark .sw{width:10px;height:10px;border-radius:999px;background:var(--accent)}
+.toggle{border:1px solid var(--line);background:var(--raised);color:var(--ink-soft);font:12px var(--sans);padding:6px 12px;border-radius:999px;cursor:pointer}
+.toggle:focus-visible,.copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+nav.jump a{font-size:13px;font-weight:600;color:var(--ink);text-decoration:none;background:var(--raised);border:1px solid var(--line);border-radius:999px;padding:6px 13px}
+nav.jump a:hover{border-color:var(--accent)}
+.hero{padding:56px 0 40px;border-bottom:1px solid var(--line-soft)}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.hero h1{font-family:var(--serif);font-size:clamp(38px,8.5vw,68px);line-height:1;margin:14px 0 14px;letter-spacing:-.02em;text-wrap:balance}
+.hero h1 .em{color:var(--red)}
+.lede{font-size:clamp(16px,2.3vw,19px);color:var(--ink-soft);max-width:58ch;margin:0}
+.spokes{margin-top:22px;display:flex;gap:12px;align-items:flex-start;background:var(--raised);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:14.5px;color:var(--ink-soft);max-width:560px}
+.spokes b{color:var(--ink)}
+section{padding:44px 0;border-bottom:1px solid var(--line-soft)}
+.sechead{display:flex;align-items:center;gap:13px;margin:0 0 6px}
+.num{font-family:var(--serif);font-size:13px;font-weight:700;color:var(--accent);background:var(--accent-bg);border:1px solid var(--accent-soft);width:30px;height:30px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+h2{font-family:var(--serif);font-size:clamp(25px,4.6vw,34px);line-height:1.08;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.subhead{color:var(--ink-soft);font-size:15px;margin:4px 0 20px;max-width:64ch}
+.facts{background:var(--raised);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:6px 20px;margin-bottom:18px}
+.facts dl{margin:0;display:grid;grid-template-columns:1fr}
+.facts .row{display:grid;grid-template-columns:1fr;gap:2px;padding:12px 0;border-bottom:1px solid var(--line-soft)}
+.facts .row:last-child{border-bottom:none}
+@media (min-width:600px){.facts .row{grid-template-columns:150px 1fr;gap:16px}}
+.facts dt{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);font-weight:700;padding-top:3px}
+.facts dd{margin:0;font-size:15px;color:var(--ink-soft)}
+.facts dd strong{color:var(--ink)}
+.facts ul{margin:4px 0 0;padding-left:18px}
+.facts li{margin:3px 0}
+.price{font-weight:800;color:var(--red);white-space:nowrap}
+.tbd{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--warn);background:var(--warn-bg);border:1px dashed var(--warn);padding:2px 10px;border-radius:999px;white-space:nowrap}
+.tscroll{overflow-x:auto;border:1px solid var(--line);border-radius:14px;margin-bottom:18px;background:var(--raised);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+thead th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);background:var(--raised-2)}
+tbody tr:last-child td{border-bottom:none}
+td.brand{font-weight:700;color:var(--ink);white-space:nowrap}
+tbody td{color:var(--ink-soft)}
+td ul{margin:0;padding-left:16px}
+.pauta{border:2px solid var(--accent-soft);border-radius:16px;background:var(--raised);overflow:hidden;box-shadow:var(--shadow)}
+.pauta .phead{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:var(--accent-bg);border-bottom:1px solid var(--accent-soft)}
+.pauta .plabel{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--accent)}
+.copy{font:600 12px var(--sans);color:var(--accent);background:var(--raised);border:1px solid var(--accent-soft);border-radius:999px;padding:5px 12px;cursor:pointer}
+.pauta .pbody{padding:18px 20px 20px}
+.pauta h3{font-family:var(--serif);font-size:clamp(20px,3.4vw,25px);line-height:1.2;margin:0 0 8px;text-wrap:balance}
+.pauta .fina{font-style:italic;color:var(--ink-soft);margin:0 0 14px;font-size:15.5px}
+.pauta p{margin:0 0 12px;font-size:15px;color:var(--ink)}
+.pauta p:last-child{margin-bottom:0}
+.note{display:flex;gap:10px;align-items:flex-start;background:var(--warn-bg);border-left:3px solid var(--warn);border-radius:0 10px 10px 0;padding:11px 14px;font-size:14px;color:var(--ink-soft);margin-top:16px}
+.week{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:640px){.week{grid-template-columns:1fr 1fr}}
+.day{background:var(--raised);border:1px solid var(--line);border-radius:14px;padding:13px 16px}
+.day .d{font-family:var(--serif);font-weight:700;font-size:18px}
+.day .t{font-size:14px;color:var(--ink-soft)}
+.handles{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:600px){.handles{grid-template-columns:1fr 1fr}}
+.handle{background:var(--raised);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:14.5px;color:var(--ink-soft)}
+.handle b{display:block;color:var(--ink)}
+.handle a{color:var(--accent);font-weight:600;text-decoration:none}
+footer{padding:34px 0 56px;font-size:13px;color:var(--ink-faint)}
+@media print{.topbar{position:static}.toggle,.copy,nav.jump{display:none}section,.pauta,.facts{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap">
+ <div class="brandmark"><span class="sw"></span>Grupo ROB · Imprensa</div>
+ <button class="toggle" id="tt" type="button" aria-label="Alternar tema claro e escuro">◐ Tema</button>
+</div></div>
+
+<header class="hero"><div class="wrap">
+ <div class="eyebrow">Para a assessoria de imprensa · semana de 23/11/2026</div>
+ <h1>Gatola, iFood e <span class="em">Black Friday</span>.</h1>
+ <p class="lede">Resumo do que o Grupo ROB coloca no ar na última semana de novembro, com uma sugestão de pauta pronta para cada frente. Os textos podem ser adaptados à vontade.</p>
+ <div class="spokes"><span aria-hidden="true">🎙️</span><div><b>Porta-voz: Matheus Oliveira</b>sócio do Grupo ROB, disponível para entrevista sobre todas as frentes.</div></div>
+ <nav class="jump" aria-label="Ir para">
+  <a href="#gatola">Gatola na Cartola</a><a href="#ifood">Grupo ROB × iFood</a><a href="#olivers">Øliver's</a><a href="#ogro">Ogro Steaks</a><a href="#temakeria">Temakeria</a><a href="#semana">Semana</a>
+ </nav>
+</div></header>
+
+<main>
+<!-- 1 GATOLA -->
+<section id="gatola"><div class="wrap">
+ <div class="sechead"><span class="num">1</span><h2>Øliver's Pizza · O Gatola da Cartola</h2></div>
+ <p class="subhead">Campanha do filme de animação em cartaz, no ar até 05/12 nas 9 unidades da rede.</p>
+ <div class="facts"><dl>
+  <div class="row"><dt>Conceito</dt><dd><strong>"O segredo saiu da cartola. Dessa vez, em forma de pizza."</strong></dd></div>
+  <div class="row"><dt>Período</dt><dd>Filme em cartaz desde <strong>05/11</strong>. Campanha até <strong>05/12</strong>.</dd></div>
+  <div class="row"><dt>Combos</dt><dd>Seção especial "Gatola na Cartola + Øliver's Pizza", com 3 pizzas Gigantes:
+   <ul><li>½ Calabresa com Cebola Roxa + ½ Frango com Requeijão</li><li>½ Marie + ½ 4 Queijos</li><li>½ Pepperoni + ½ Calabresa com Cebola Roxa, com <strong>1 pizza pequena de Banana na Neve de brinde</strong></li></ul></dd></div>
+  <div class="row"><dt>Experiência</dt><dd><strong>Caixa interativa</strong>: parte colorida e parte em preto e branco, para a criança terminar a pintura. Panfleto do filme e display de mesa nos salões.</dd></div>
+  <div class="row"><dt>Onde</dt><dd>9 unidades: salões em Cabo Frio, Maricá, Niterói, São Gonçalo e Araruama; delivery em Copacabana, Lapa, Itaipuaçu e Alcântara.</dd></div>
+  <div class="row"><dt>Histórico</dt><dd>Segunda parceria da rede com lançamento de cinema em 2026, depois de "Coyote vs. Acme" (agosto e setembro).</dd></div>
+ </dl></div>
+ <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
+  <h3>Øliver's Pizza tira uma surpresa da cartola com combos de "O Gatola da Cartola"</h3>
+  <p class="fina">Com caixa para a criança colorir e combos temáticos, a rede leva o filme em cartaz para as 9 unidades até 5 de dezembro</p>
+  <p>Depois de "Coyote vs. Acme", a Øliver's Pizza volta a levar o cinema para a mesa. Com o filme de animação "O Gatola da Cartola" em cartaz desde 5 de novembro, a rede criou a campanha "O segredo saiu da cartola. Dessa vez, em forma de pizza.", que transforma o pedido de pizza num programa para a família.</p>
+  <p>O cardápio ganhou a seção especial "Gatola na Cartola + Øliver's Pizza", com três combos de pizza Gigante: Calabresa com Cebola Roxa + Frango com Requeijão, Marie + 4 Queijos e Pepperoni + Calabresa com Cebola Roxa, essa última com uma pizza pequena de Banana na Neve de brinde. Os pedidos chegam numa caixa interativa, parte colorida e parte em preto e branco, para a criança terminar a pintura. Os salões também têm panfleto e display de mesa do filme.</p>
+  <p>A ação vale até 5 de dezembro nas 9 unidades da rede. Os endereços podem ser consultados no Instagram oficial da marca, @oliverspizza1.</p>
+ </div></article>
+</div></section>
+
+<!-- 2 IFOOD -->
+<section id="ifood"><div class="wrap">
+ <div class="sechead"><span class="num">2</span><h2>Grupo ROB × iFood · Black Friday</h2></div>
+ <p class="subhead">As três marcas do grupo juntas numa única campanha dentro do app, só em 27 e 28/11.</p>
+ <div class="facts"><dl>
+  <div class="row"><dt>Datas</dt><dd><strong>27 e 28/11</strong> (sexta e sábado).</dd></div>
+  <div class="row"><dt>Onde</dt><dd>iFood, no Rio de Janeiro: <strong>banner na home</strong> e <strong>anúncios em vídeo</strong> na aba de restaurantes.</dd></div>
+  <div class="row"><dt>O diferencial</dt><dd>Três culinárias numa vitrine só: pizza (Øliver's Pizza), burger (Ogro Steaks) e japonês (Temakeria Universitária).</dd></div>
+  <div class="row"><dt>Ofertas</dt><dd>2 por 1 em um produto de cada marca e seleção com descontos de <strong>até 35%</strong>.</dd></div>
+ </dl></div>
+ <div class="tscroll"><table>
+  <thead><tr><th>Marca</th><th>2 por 1</th><th>Seleção com desconto</th></tr></thead>
+  <tbody>
+   <tr><td class="brand">Øliver's Pizza</td><td>Muçarela Média por <span class="price">R$ 68,90</span></td><td><ul><li>25%: Calabresa com Cebola Roxa Grande, O Poderoso Combão (Grande + refri), Combo Love Sessions (Média + refri), Marguerita Grande</li><li>35%: Muçarela Média, Marguerita Média, Nutella Pequena</li></ul></td></tr>
+   <tr><td class="brand">Ogro Steaks</td><td>P.C.Q (Pão, Carne e Queijo) por <span class="price">R$ 59,90</span></td><td><ul><li>25%: combos com batata e bebida do P.C.Q, Quarter Ogro, Ogro Festival, Ogro GPT e Notdog</li></ul></td></tr>
+   <tr><td class="brand">Temakeria Universitária</td><td>Temaki Salmão Completo</td><td><ul><li>Temaki Salmão Completo + 10 Hot Rolls</li><li>Hot Day: Big Hot Roll de Salmão + Burger de Salmão</li><li>Combo 1 (2 temakis + 16 peças)</li><li>80 Hot Philadelphia</li><li>Big Hot de Salmão</li></ul></td></tr>
+  </tbody>
+ </table></div>
+ <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
+  <h3>Do quintal em Maricá à vitrine do iFood: Grupo ROB junta pizza, burger e japonês na Black Friday</h3>
+  <p class="fina">Nos dias 27 e 28 de novembro, Øliver's Pizza, Ogro Steaks e Temakeria Universitária dividem banner e vídeo no app, com ofertas 2 por 1 e descontos de até 35%</p>
+  <p>A história do Grupo ROB começa com a Øliver's Pizza, aberta há nove anos no quintal da casa da família, em Maricá. Hoje o grupo reúne três marcas e três culinárias, e chega à Black Friday com todas elas numa campanha só: nos dias 27 e 28 de novembro, Øliver's Pizza, Ogro Steaks e Temakeria Universitária aparecem juntas no banner da home e nos anúncios em vídeo do iFood no Rio de Janeiro. Quem abre o app escolhe entre pizza, burger e japonês sem sair da mesma vitrine.</p>
+  <p>As ofertas incluem 2 por 1 em um produto de cada marca: a Muçarela Média da Øliver's Pizza por R$ 68,90, o P.C.Q (Pão, Carne e Queijo) do Ogro Steaks por R$ 59,90 e o Temaki Salmão Completo da Temakeria Universitária. Cada marca também tem uma seleção de pizzas, burgers, combos e combinados com descontos de até 35%.</p>
+ </div></article>
+</div></section>
+
+<!-- 3 OLIVERS -->
+<section id="olivers"><div class="wrap">
+ <div class="sechead"><span class="num">3</span><h2>Øliver's Pizza · Black Friday</h2></div>
+ <p class="subhead">A melhor oferta da marca fica no delivery próprio.</p>
+ <div class="facts"><dl>
+  <div class="row"><dt>Oferta</dt><dd>Pizza <strong>½ Muçarela + ½ Calabresa com Cebola Roxa</strong> por <span class="price">R$ 19,90</span></dd></div>
+  <div class="row"><dt>Quando</dt><dd><strong>27/11</strong>, com aquecimento nas redes em 25 e 26/11.</dd></div>
+  <div class="row"><dt>Onde</dt><dd>Delivery próprio da Øliver's Pizza (site e cardápio digital).</dd></div>
+  <div class="row"><dt>Regras</dt><dd>Quantidade limitada em cada unidade. Vale para pedidos que atingem o valor mínimo do canal.</dd></div>
+  <div class="row"><dt>Também</dt><dd>iFood em 27 e 28/11, na ação conjunta do Grupo ROB (seção 2).</dd></div>
+  <div class="row"><dt>Em definição</dt><dd><span class="tbd">⏳ Ação no salão: a confirmar</span> <span class="tbd">⏳ Cyber Monday 30/11: a confirmar</span></dd></div>
+ </dl></div>
+ <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
+  <h3>Øliver's Pizza vende pizza meio a meio por R$ 19,90 na Black Friday</h3>
+  <p class="fina">Oferta vale só no dia 27 de novembro, no delivery próprio da rede, com quantidade limitada por unidade</p>
+  <p>Na Black Friday, a Øliver's Pizza aposta no preço para trazer o cliente para o seu canal próprio. No dia 27 de novembro, a pizza meio Muçarela e meio Calabresa com Cebola Roxa sai por R$ 19,90 no delivery próprio da rede.</p>
+  <p>A oferta tem quantidade limitada em cada unidade e vale para pedidos que atingem o valor mínimo do canal. No iFood, a marca participa da ação conjunta do Grupo ROB nos dias 27 e 28. Os endereços podem ser consultados no Instagram oficial da rede, @oliverspizza1.</p>
+ </div></article>
+</div></section>
+
+<!-- 4 OGRO -->
+<section id="ogro"><div class="wrap">
+ <div class="sechead"><span class="num">4</span><h2>Ogro Steaks · Black Friday</h2></div>
+ <p class="subhead">Primeira Black Friday depois da inauguração em São Gonçalo (20/11).</p>
+ <div class="facts"><dl>
+  <div class="row"><dt>Oferta</dt><dd><strong>P.C.Q (Pão, Carne e Queijo)</strong> por <span class="price">R$ 1,00</span></dd></div>
+  <div class="row"><dt>Quando</dt><dd><strong>27/11</strong>, com aquecimento nas redes em 25 e 26/11.</dd></div>
+  <div class="row"><dt>Onde</dt><dd>Delivery próprio do Ogro Steaks.</dd></div>
+  <div class="row"><dt>Regras</dt><dd>1 por carrinho. Vale para pedidos que atingem o valor mínimo da loja, enquanto durar o estoque.</dd></div>
+  <div class="row"><dt>Também</dt><dd>iFood em 27 e 28/11, com 2 por 1 no P.C.Q (seção 2).</dd></div>
+  <div class="row"><dt>Em definição</dt><dd><span class="tbd">⏳ Cyber Monday 30/11: a confirmar</span></dd></div>
+ </dl></div>
+ <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
+  <h3>Burger a R$ 1: Ogro Steaks faz Black Friday no canal próprio</h3>
+  <p class="fina">No dia 27 de novembro, o P.C.Q sai por R$ 1,00 no delivery próprio, uma semana depois da inauguração em São Gonçalo</p>
+  <p>O Ogro Steaks chega à primeira Black Friday depois de abrir a unidade de São Gonçalo, em 20 de novembro, com uma oferta direta: no dia 27, o P.C.Q (Pão, Carne e Queijo) custa R$ 1,00 no delivery próprio da marca.</p>
+  <p>A oferta tem limite de uma unidade por carrinho, vale para pedidos que atingem o valor mínimo da loja e segue enquanto durar o estoque. No iFood, o Ogro Steaks participa da ação conjunta do Grupo ROB nos dias 27 e 28, com 2 por 1 no P.C.Q. Mais informações no Instagram @ogro.steaks.</p>
+ </div></article>
+</div></section>
+
+<!-- 5 TEMAKERIA -->
+<section id="temakeria"><div class="wrap">
+ <div class="sechead"><span class="num">5</span><h2>Temakeria Universitária · Black Friday</h2></div>
+ <p class="subhead">O produto mais conhecido da marca, com preço de Black Friday no delivery próprio.</p>
+ <div class="facts"><dl>
+  <div class="row"><dt>Oferta</dt><dd><strong>Big Hot de Salmão</strong> por <span class="price">R$ 24,90</span></dd></div>
+  <div class="row"><dt>Quando</dt><dd><strong>27/11</strong>, com aquecimento nas redes em 25 e 26/11.</dd></div>
+  <div class="row"><dt>Onde</dt><dd>Delivery próprio da Temakeria Universitária.</dd></div>
+  <div class="row"><dt>Regras</dt><dd>Vale para pedidos que atingem o valor mínimo do canal.</dd></div>
+  <div class="row"><dt>Também</dt><dd>iFood em 27 e 28/11, com 2 por 1 no Temaki Salmão Completo (seção 2).</dd></div>
+  <div class="row"><dt>Em definição</dt><dd><span class="tbd">⏳ Cyber Monday 30/11: a confirmar</span></dd></div>
+ </dl></div>
+ <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
+  <h3>Temakeria Universitária faz Black Friday com Big Hot de Salmão por R$ 24,90</h3>
+  <p class="fina">Oferta do dia 27 de novembro é exclusiva do delivery próprio da marca</p>
+  <p>A Temakeria Universitária escolheu seu produto mais conhecido para a Black Friday. No dia 27 de novembro, o Big Hot de Salmão sai por R$ 24,90 no delivery próprio da marca, para pedidos que atingem o valor mínimo do canal.</p>
+  <p>No iFood, a Temakeria Universitária participa da ação conjunta do Grupo ROB nos dias 27 e 28, com 2 por 1 no Temaki Salmão Completo e combinados com até 35% de desconto. Mais informações no Instagram @temakeriauniversitariarj.</p>
+ </div></article>
+</div></section>
+
+<!-- 6 SEMANA -->
+<section id="semana"><div class="wrap">
+ <div class="sechead"><span class="num">6</span><h2>A semana em resumo</h2></div>
+ <p class="subhead">Datas de tudo que está no ar ou sai nos próximos dias.</p>
+ <div class="week">
+  <div class="day"><div class="d">Até 05/12</div><div class="t">Gatola na Cartola nas 9 unidades da Øliver's Pizza</div></div>
+  <div class="day"><div class="d">25 e 26/11</div><div class="t">Aquecimento da Black Friday nas redes das três marcas</div></div>
+  <div class="day"><div class="d">27/11 · sexta</div><div class="t">Black Friday no delivery próprio: pizza R$ 19,90, P.C.Q R$ 1,00, Big Hot R$ 24,90</div></div>
+  <div class="day"><div class="d">27 e 28/11</div><div class="t">Grupo ROB no iFood: banner na home e vídeo, 2 por 1 e até 35%</div></div>
+  <div class="day"><div class="d">30/11 · segunda</div><div class="t">Cyber Monday <span class="tbd">⏳ a confirmar</span></div></div>
+ </div>
+ <div class="note"><span aria-hidden="true">📌</span><div>Ação no salão da Øliver's Pizza e ofertas da Cyber Monday ainda estão em definição. Assim que fecharem, mandamos a atualização no grupo.</div></div>
+ <h3 style="font-family:var(--serif);font-size:20px;margin:30px 0 12px">Instagram das marcas</h3>
+ <div class="handles">
+  <div class="handle"><b>Grupo ROB</b><a href="https://www.instagram.com/rob.foodgroup/" rel="noopener">@rob.foodgroup</a></div>
+  <div class="handle"><b>Øliver's Pizza</b><a href="https://www.instagram.com/oliverspizza1/" rel="noopener">@oliverspizza1</a></div>
+  <div class="handle"><b>Ogro Steaks</b><a href="https://www.instagram.com/ogro.steaks/" rel="noopener">@ogro.steaks</a></div>
+  <div class="handle"><b>Temakeria Universitária</b><a href="https://www.instagram.com/temakeriauniversitariarj/" rel="noopener">@temakeriauniversitariarj</a></div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">Marketing · Grupo ROB · atualizado em 23/11/2026</div></footer>
+
+<script>
+(function(){
+ var root=document.documentElement,btn=document.getElementById('tt');
+ function cur(){var a=root.getAttribute('data-theme');if(a)return a;return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}
+ btn.addEventListener('click',function(){root.setAttribute('data-theme',cur()==='dark'?'light':'dark');});
+ document.querySelectorAll('.pauta').forEach(function(p){
+  var b=p.querySelector('.copy');
+  b.addEventListener('click',function(){
+   var body=p.querySelector('.pbody'),parts=[];
+   body.querySelectorAll('h3,.fina,p:not(.fina)').forEach(function(el){parts.push(el.innerText.trim());});
+   var txt=parts.join('\n\n');
+   function done(){b.textContent='Copiado ✓';setTimeout(function(){b.textContent='Copiar texto';},1800);}
+   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fallback(txt);done();});}else{fallback(txt);done();}
+  });
+ });
+ function fallback(t){var ta=document.createElement('textarea');ta.value=t;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(ta);}
+})();
+</script>
+</body>
+</html>
