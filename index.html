@@ -49,7 +49,11 @@ nav.jump a:hover{border-color:var(--accent)}
 .hero h1 .em{color:var(--red)}
 .lede{font-size:clamp(16px,2.3vw,19px);color:var(--ink-soft);max-width:58ch;margin:0}
 .spokes{margin-top:22px;display:flex;gap:12px;align-items:flex-start;background:var(--raised);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:14.5px;color:var(--ink-soft);max-width:560px}
-.spokes b{color:var(--ink)}
+.spokes b{color:var(--ink);display:block}
+a.spokes{text-decoration:none;border:2px solid var(--accent-soft);transition:border-color .15s}
+a.spokes:hover{border-color:var(--accent)}
+a.spokes:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a.spokes .go{margin-left:auto;font-weight:700;color:var(--accent);font-size:18px}
 section{padding:44px 0;border-bottom:1px solid var(--line-soft)}
 .sechead{display:flex;align-items:center;gap:13px;margin:0 0 6px}
 .num{font-family:var(--serif);font-size:13px;font-weight:700;color:var(--accent);background:var(--accent-bg);border:1px solid var(--accent-soft);width:30px;height:30px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;flex:none}
@@ -109,7 +113,7 @@ footer{padding:34px 0 56px;font-size:13px;color:var(--ink-faint)}
  <div class="eyebrow">Para a assessoria de imprensa · semana de 23/11/2026</div>
  <h1>Gatola, iFood e <span class="em">Black Friday</span>.</h1>
  <p class="lede">Resumo do que o Grupo ROB coloca no ar na última semana de novembro, com uma sugestão de pauta pronta para cada frente. Os textos podem ser adaptados à vontade.</p>
- <div class="spokes"><span aria-hidden="true">🎙️</span><div><b>Porta-voz: Matheus Oliveira</b>sócio do Grupo ROB, disponível para entrevista sobre todas as frentes.</div></div>
+ <a class="spokes drive" href="https://drive.google.com/drive/folders/1_qlUAv4mwWBEmMTEyhdiVPb7da297jjA" target="_blank" rel="noopener"><span aria-hidden="true">📁</span><div><b>Mídias para as pautas</b>Banners, fotos dos combos do Gatola e fotos dos produtos da Black Friday, separados por marca. Clique para abrir a pasta no Google Drive.</div><span class="go" aria-hidden="true">↗</span></a>
  <nav class="jump" aria-label="Ir para">
   <a href="#gatola">Gatola na Cartola</a><a href="#ifood">Grupo ROB × iFood</a><a href="#olivers">Øliver's</a><a href="#ogro">Ogro Steaks</a><a href="#temakeria">Temakeria</a><a href="#semana">Semana</a>
  </nav>
@@ -119,10 +123,11 @@ footer{padding:34px 0 56px;font-size:13px;color:var(--ink-faint)}
 <!-- 1 GATOLA -->
 <section id="gatola"><div class="wrap">
  <div class="sechead"><span class="num">1</span><h2>Øliver's Pizza · O Gatola da Cartola</h2></div>
- <p class="subhead">Campanha do filme de animação em cartaz, no ar até 05/12 nas 9 unidades da rede.</p>
+ <p class="subhead">Campanha do filme de animação em cartaz, nas 9 unidades da rede.</p>
+ <div class="note" style="margin:0 0 18px"><span aria-hidden="true">🗓️</span><div><strong>Obs. período:</strong> filme em cartaz desde <strong>05/11</strong> · campanha rodando desde <strong>19/11</strong> · campanha até <strong>05/12</strong>.</div></div>
  <div class="facts"><dl>
   <div class="row"><dt>Conceito</dt><dd><strong>"O segredo saiu da cartola. Dessa vez, em forma de pizza."</strong></dd></div>
-  <div class="row"><dt>Período</dt><dd>Filme em cartaz desde <strong>05/11</strong>. Campanha até <strong>05/12</strong>.</dd></div>
+  <div class="row"><dt>Período</dt><dd>Campanha de <strong>19/11</strong> a <strong>05/12</strong> (filme em cartaz desde 05/11).</dd></div>
   <div class="row"><dt>Combos</dt><dd>Seção especial "Gatola na Cartola + Øliver's Pizza", com 3 pizzas Gigantes:
    <ul><li>½ Calabresa com Cebola Roxa + ½ Frango com Requeijão</li><li>½ Marie + ½ 4 Queijos</li><li>½ Pepperoni + ½ Calabresa com Cebola Roxa, com <strong>1 pizza pequena de Banana na Neve de brinde</strong></li></ul></dd></div>
   <div class="row"><dt>Experiência</dt><dd><strong>Caixa interativa</strong>: parte colorida e parte em preto e branco, para a criança terminar a pintura. Panfleto do filme e display de mesa nos salões.</dd></div>
@@ -134,7 +139,7 @@ footer{padding:34px 0 56px;font-size:13px;color:var(--ink-faint)}
   <p class="fina">Com caixa para a criança colorir e combos temáticos, a rede leva o filme em cartaz para as 9 unidades até 5 de dezembro</p>
   <p>Depois de "Coyote vs. Acme", a Øliver's Pizza volta a levar o cinema para a mesa. Com o filme de animação "O Gatola da Cartola" em cartaz desde 5 de novembro, a rede criou a campanha "O segredo saiu da cartola. Dessa vez, em forma de pizza.", que transforma o pedido de pizza num programa para a família.</p>
   <p>O cardápio ganhou a seção especial "Gatola na Cartola + Øliver's Pizza", com três combos de pizza Gigante: Calabresa com Cebola Roxa + Frango com Requeijão, Marie + 4 Queijos e Pepperoni + Calabresa com Cebola Roxa, essa última com uma pizza pequena de Banana na Neve de brinde. Os pedidos chegam numa caixa interativa, parte colorida e parte em preto e branco, para a criança terminar a pintura. Os salões também têm panfleto e display de mesa do filme.</p>
-  <p>A ação vale até 5 de dezembro nas 9 unidades da rede. Os endereços podem ser consultados no Instagram oficial da marca, @oliverspizza1.</p>
+  <p>A campanha está no ar desde 19 de novembro e vale até 5 de dezembro nas 9 unidades da rede. Os endereços podem ser consultados no Instagram oficial da marca, @oliverspizza1.</p>
  </div></article>
 </div></section>
 
@@ -157,9 +162,9 @@ footer{padding:34px 0 56px;font-size:13px;color:var(--ink-faint)}
   </tbody>
  </table></div>
  <article class="pauta"><div class="phead"><span class="plabel">Sugestão de pauta</span><button class="copy" type="button">Copiar texto</button></div><div class="pbody">
-  <h3>Do quintal em Maricá à vitrine do iFood: Grupo ROB junta pizza, burger e japonês na Black Friday</h3>
+  <h3>Pizza, burger ou japonês: Grupo ROB reúne suas três marcas numa só campanha de Black Friday no iFood</h3>
   <p class="fina">Nos dias 27 e 28 de novembro, Øliver's Pizza, Ogro Steaks e Temakeria Universitária dividem banner e vídeo no app, com ofertas 2 por 1 e descontos de até 35%</p>
-  <p>A história do Grupo ROB começa com a Øliver's Pizza, aberta há nove anos no quintal da casa da família, em Maricá. Hoje o grupo reúne três marcas e três culinárias, e chega à Black Friday com todas elas numa campanha só: nos dias 27 e 28 de novembro, Øliver's Pizza, Ogro Steaks e Temakeria Universitária aparecem juntas no banner da home e nos anúncios em vídeo do iFood no Rio de Janeiro. Quem abre o app escolhe entre pizza, burger e japonês sem sair da mesma vitrine.</p>
+  <p>Na Black Friday, o Grupo ROB coloca suas três marcas lado a lado. Nos dias 27 e 28 de novembro, Øliver's Pizza, Ogro Steaks e Temakeria Universitária aparecem juntas no banner da home e nos anúncios em vídeo do iFood no Rio de Janeiro. Quem abre o app escolhe entre pizza, burger e japonês numa mesma campanha.</p>
   <p>As ofertas incluem 2 por 1 em um produto de cada marca: a Muçarela Média da Øliver's Pizza por R$ 68,90, o P.C.Q (Pão, Carne e Queijo) do Ogro Steaks por R$ 59,90 e o Temaki Salmão Completo da Temakeria Universitária. Cada marca também tem uma seleção de pizzas, burgers, combos e combinados com descontos de até 35%.</p>
  </div></article>
 </div></section>
